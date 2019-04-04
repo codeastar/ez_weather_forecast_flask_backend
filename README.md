@@ -9,7 +9,7 @@ $cd ezw_restful
 
 $pipenv --three
 
-$pipenv install 
+$pip install -r requirements.txt 
 (download/install required libraries to your current system)
 
 $pipenv shell
@@ -18,7 +18,9 @@ $export DARK_SKY_KEY={your Dark Sky API Key}
 //SET DARK_SKY_KEY={your Dark Sky API Key}    for Windows users
 
 $export REF_WHITE_LIST='{white listed refernence domains}'
+
 //e.g. export REF_WHITE_LIST='elasticbeanstalk.com, abc.com'
+
 //use SET REF_WHITE_LIST={....}    for Windows users
 
 $python application.py  
