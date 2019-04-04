@@ -22,3 +22,7 @@ $export REF_WHITE_LIST='{white listed refernence domains}'
 //use SET REF_WHITE_LIST={....}    for Windows users
 
 $python application.py  
+
+## Live Demo
+
+https://www.codeastar.com/ez-weather-forecast/
